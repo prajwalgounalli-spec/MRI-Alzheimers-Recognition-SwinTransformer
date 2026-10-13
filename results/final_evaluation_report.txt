@@ -1,0 +1,41 @@
+ALZHEIMER'S MRI CLASSIFICATION
+FINAL TEST EVALUATION REPORT
+========================================
+
+Model:
+Swin-Tiny multi-stage features + StandardScaler + SMOTE + RBF-SVM
+
+Number of test images: 1280
+
+Overall metrics:
+Accuracy: 96.95%
+Balanced accuracy: 97.66%
+Macro precision: 97.77%
+Macro recall: 97.66%
+Macro F1-score: 97.72%
+
+Per-class results:
+Class               Precision   Recall   F1-score   Support
+Mild_Demented         97.62%    97.04%    97.33%      169
+Moderate_Demented    100.00%   100.00%   100.00%       11
+Non_Demented          97.33%    97.48%    97.40%      635
+Very_Mild_Demented    96.13%    96.13%    96.13%      465
+
+Confusion matrix (rows=actual, columns=predicted):
+                    Mild  Moderate  Non-Demented  Very-Mild
+Mild                 164       0          2             3
+Moderate               0      11          0             0
+Non-Demented           1       0        619            15
+Very-Mild              3       0         15           447
+
+Correct predictions: 1241
+Incorrect predictions: 39
+
+Limitations:
+- The Moderate_Demented test class contains only 11 images.
+- Results are based on saved predictions; the full training pipeline
+  and split-to-image mapping still require independent verification.
+- This is a research prototype, not a clinical diagnostic tool.
+- Performance on external datasets has not been established.
+
+Report created: 2026-10-13

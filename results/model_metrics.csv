@@ -1,0 +1,21 @@
+﻿Metric,Class,Value,Unit
+Accuracy,Overall,96.95,%
+Balanced Accuracy,Overall,97.66,%
+Precision,Macro Average,97.77,%
+Recall,Macro Average,97.66,%
+F1-score,Macro Average,97.72,%
+Precision,Mild Demented,97.62,%
+Recall,Mild Demented,97.04,%
+F1-score,Mild Demented,97.33,%
+Precision,Moderate Demented,100.0,%
+Recall,Moderate Demented,100.0,%
+F1-score,Moderate Demented,100.0,%
+Precision,Non-Demented,97.33,%
+Recall,Non-Demented,97.48,%
+F1-score,Non-Demented,97.4,%
+Precision,Very Mild Demented,96.13,%
+Recall,Very Mild Demented,96.13,%
+F1-score,Very Mild Demented,96.13,%
+Test Samples,Overall,1280,images
+Correct Predictions,Overall,1241,images
+Incorrect Predictions,Overall,39,images

@@ -1,0 +1,5 @@
+Total image files: 6400
+Unique image contents: 6400
+Duplicate groups: 0
+Extra duplicate files: 0
+Unreadable files: 0
